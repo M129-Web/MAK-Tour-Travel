@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mak Tours & Travel</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0; padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1502920917128-1aa500764ce7') no-repeat center center/cover;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      color: #007bff;
+      margin-bottom: 20px;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+    .card .content {
+      padding: 15px;
+    }
+    .contact-info {
+      background: #eee;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: white;
+      margin-top: 40px;
+    }
+    /* WhatsApp Button */
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50px;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
+    .whatsapp-button img {
+      width: 20px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mak Tours & Travel</h1>
+    <p>Your Gateway to Pakistan’s Beauty & Comfort</p>
+  </header>
+
+  <section>
+    <h2>Top Hotels in Pakistan</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/460969177.jpg" alt="Serena Hotel">
+        <div class="content"><h3>Serena Hotel Islamabad</h3></div>
+      </div>
+      <div class="card">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/238184395.jpg" alt="PC Hotel">
+        <div class="content"><h3>PC Hotel Lahore</h3></div>
+      </div>
+      <div class="card">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/343503232.jpg" alt="Movenpick Karachi">
+        <div class="content"><h3>Mövenpick Karachi</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Luxury Cars for Travel</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1617787925053-6e0661a2fc91" alt="SUV">
+        <div class="content"><h3>Land Cruiser Prado</h3></div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1617814066766-fd23cdbbd1ef" alt="Sedan">
+        <div class="content"><h3>Mercedes Benz</h3></div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1571607389480-74d35d6fbf7f" alt="Hiace">
+        <div class="content"><h3>Toyota Hiace Grand Cabin</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <p><strong>M Umair Khan:</strong> 03005754204</p>
+      <p><strong>M Noman Khan:</strong> 03150206270</p>
+      <p><strong>Address:</strong> Office G10/4, Mir Plaza, 3rd Road, Islamabad</p>
+    </div>
+  </section>
+
+  <a class="whatsapp-button" href="https://wa.me/923150206270" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp Icon"/>
+    Chat on WhatsApp
+  </a>
+
+  <footer>
+    &copy; 2025 Mak Tours & Travel. All rights reserved.
+  </footer>
+
+</body>
+</html>
